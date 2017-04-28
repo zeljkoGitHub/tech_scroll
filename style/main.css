@@ -1,0 +1,88 @@
+/*
+Specify fonts in CSS! Use the following CSS rules to specify these families:
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+body {
+	margin: 70px 0 0;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-defaul {
+	background: #fff;
+	border: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+#showcase h1 {
+	font-size: 50px;
+	margin: 0 0 20px;
+}
+
+#showcase img {
+	width: 90%;
+	margin: 0 0 0 60px; 
+}
+
+#showcase .showcase-right {
+	margin: 90px 0 0;
+}
+
+#testimonial {
+	background: #f1f1f1;
+	padding: 50px 0 30px;
+	text-align: center;
+	margin: 40px 0 0;
+}
+
+#testimonial p {
+	font-size: 32px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000;
+}
+
+#testimonial p.customer {
+	font-size: 20px;
+	color: #777;
+}
+
+#info1 .info-right {
+	margin: 90px 0 0;
+}
+
+#info1 img {
+	width: 90%;
+}
+
+#info2 {
+	margin: 20px 0 60px;
+}
+
+#contact {
+	background: url(../images/image3.png) no-repeat;
+	background-size: cover;
+	padding: 40px;
+	color: #fff;
+	border-top: #333 7px solid;
+	border-bottom: #333 7px solid;
+}
+
+footer {
+	padding: 30px;
+}
